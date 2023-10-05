@@ -10,7 +10,7 @@ Projeto de data cleaning e data wrangling, com o objetivo de preparar uma base d
 
 ## Sobre o dataset
 
-O dataset é uma base pública disponibilizada pela IBM, com 7043 linhas e 33 colunas. Segue abaixo a descrição de cada uma das colunas.
+O dataset é uma base pública disponibilizada pela IBM, com 7043 linhas e 30 colunas. Segue abaixo a descrição de cada uma das colunas.
 
 * CustomerID: um ID exclusivo que identifica cada cliente.
 * Count: um valor usado em relatórios/painel para somar o número de clientes em um conjunto filtrado.
@@ -40,8 +40,5 @@ O dataset é uma base pública disponibilizada pela IBM, com 7043 linhas e 33 co
 * Payment Method: Indica como o cliente paga sua fatura: Saque Bancário, Cartão de Crédito, Cheque Enviado
 * Monthly Charge: Indica a cobrança mensal total atual do cliente por todos os serviços da empresa.
 * Total Charges: Indica os encargos totais do cliente, calculados até o final do trimestre especificado acima.
-* Churn Label: Sim = o cliente saiu da empresa neste trimestre. Não = o cliente permaneceu na empresa. Diretamente relacionado ao valor de churn.
 * Churn Value: 1 = o cliente saiu da empresa neste trimestre. 0 = o cliente permaneceu na empresa. Diretamente relacionado ao rótulo Churn.
-* Churn Score: um valor de 0 a 100 que é calculado usando a ferramenta preditiva IBM SPSS Modeler. O modelo incorpora vários fatores conhecidos por causar rotatividade. Quanto maior a pontuação, maior a probabilidade de o cliente se desligar.
 * CLTV: Valor de vida do cliente. Um CLTV previsto é calculado usando fórmulas corporativas e dados existentes. Quanto maior o valor, mais valioso é o cliente. Clientes de alto valor devem ser monitorados quanto à rotatividade.
-* Churn Reason: o motivo específico de um cliente para deixar a empresa. Diretamente relacionado à categoria Churn.
